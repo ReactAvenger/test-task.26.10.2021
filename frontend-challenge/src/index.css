@@ -1,0 +1,118 @@
+.nav-wrapper{
+    position: relative;
+}
+
+.box {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap
+}
+
+.material-icons {
+    font-size: 2.4em;
+    cursor: pointer;
+    transition: .4s ease;
+    transform: scale(1);
+}
+.material-icons:active{
+    transform: scale(.4);
+}
+
+
+.card {
+    width: 300px;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.card .card-image .card-title {
+    color: black;
+    font-weight: 400
+}
+
+.cart {
+    margin-top: 40px;
+}
+
+.collection .collection-item {
+    display: flex;
+}
+
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.collection .collection-item img {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.item-desc {
+    align-self: center;
+}
+
+.item-img img {
+   width: 100%
+}
+
+.chosen-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+.card-chosen {
+    list-style: none;
+    width: 300px;
+    margin-bottom: 1.5rem;
+    -webkit-box-shadow: 0 0 10px -1px rgba(0,0,0,0.55);
+    box-shadow: 0 0 10px -1px rgba(0,0,0,0.55);
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.card-chosen:hover{
+    -webkit-box-shadow: 0 0 20px -1px rgba(0,0,0,0.55);
+    box-shadow: 0 0 20px -1px rgba(0,0,0,0.55);
+}
+
+p {
+   padding: 0 5%;
+}
+
+.add-remove {
+   display: flex;
+   justify-content: center;
+}
+
+.shop-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: #e7353c;
+    position: absolute;
+    top: .4rem;
+    right: 16%;
+}
+
+.delete-btn{
+  width: auto;
+  margin-left: 35%;
+}
+
+.cart-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-info h5{
+    display: flex;
+}
